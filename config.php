@@ -17,4 +17,3 @@ if ($conn->connect_error){
 else{
     echo "PARABÉNS!!! A conexão ao banco de dados ocorreu normalmente!";
 }
-?>
