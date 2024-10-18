@@ -5,15 +5,15 @@ if (!$conn){
 }
 
 //Recebe os dados do formulário
-$nome = 'Camila Fernanda';
-$dtnasc = '28-03-2007';
-$celular = '(81) 99486-3357';
-$email = 'cmlfernandalsilva@gmail.com';
-$ra = '633114526';
-$endereco = 'Rua Patinho Tucano';
-$num_end = '15';
-$bairro = 'Jardim Paulista Baixo';
-$cidade = 'Paulista ';
+$nome = $_POST["nome"];
+$dtnasc = $_POST["dtnasc"];
+$celular = $_POST["celular"];
+$email = $_POST["email"];
+$ra = $_POST["ra"];
+$endereco = $_POST["endereco"];
+$num_end = $_POST["num_end"];
+$bairro = $_POST["bairro"];
+$cidade = $_POST["cidade"];
 
 //Cria variável para inserir um registro
 $sql = "INSERT INTO `leitores` 
