@@ -33,7 +33,7 @@ if($query){
 else{
     echo "<center>";
     echo "Erro ao cadastrar!<br>";
-    echo "a href='index.php'>button title='Home Page'>Voltar<button></a>";
+    echo "a href='index.html'>button title='Home Page'>Voltar<button></a>";
     echo "</center>";
 }
 ?>
